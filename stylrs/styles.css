@@ -1,6 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+
+.michroma-regular {
+    font-family: 'Miama', sans-serif;
+
+}
+
+body {
+    background-color: black;
+    align-items: center;
+}
+
 .inter-fitness-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
@@ -38,11 +51,12 @@ p {
 .button-app,
 
 .two-container {
-    background-color: rgba(17, 17, 17, 1);
+    /* background-color: rgba(17, 17, 17, 1); */
 }
 
 .orange-color,
-.button-primary {
+.button-primary,
+.join-btn {
     background-color: rgba(230, 83, 60, 1);
 }
 
@@ -55,7 +69,9 @@ p {
 .shape {}
 
 .navbar {
+    display: flex;
     justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
 }
@@ -68,7 +84,7 @@ p {
 
 .nav-links {
     /* padding-right: 190px; */
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 .nav-item {
@@ -89,10 +105,16 @@ p {
 
 .banner-description {}
 
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
 .navbar,
 .banner {
     max-width: 1440px;
     margin: 0 auto;
+
 }
 
 .banner-contant {
@@ -111,15 +133,15 @@ p {
 }
 
 .button-app {
-    /* background-color: black; */
+    background-color: black;
     border: 1px solid white;
 }
 
 .changes {
     max-width: 476px;
-
-
+    margin: 0 auto;
 }
+
 
 .change-habit {}
 
@@ -128,7 +150,8 @@ p {
 
 .images {
     display: flex;
-    align-items: center;
+    max-width: 566px;
+    margin: 0 auto;
 
 }
 
@@ -149,7 +172,9 @@ p {
 }
 
 .third-container {
-    padding-top: 78px;
+    max-width: 684px;
+    margin: 0 auto;
+    /* padding-top: 78px; */
     border-radius: 18px;
     display: flex;
     background-color: rgba(34, 34, 34, 1);
@@ -157,20 +182,61 @@ p {
     height: 400px;
 }
 
-.run-container {
-    padding: 45px 68px 54px;
+.run-description {
+    margin-top: 46px;
+    margin-bottom: 46px;
+    margin-left: 54px;
 }
 
-.extra-img {}
+.run-container {
+    /* padding: 45px 68px 54px; */
+}
+
+.extra-img {
+    border-radius: 18px;
+    width: 287px;
+    height: 170px;
+}
 
 .run-img {
+    object-fit: cover;
+    max-width: 200px;
     width: 100%;
-    padding-top: 40px;
-    padding-right: 43px;
+    /* padding-top: 40px; */
+    /* padding-right: 43px; */
     border-radius: 18px;
+
 }
 
 .join-btn {
-    width: 287px;
+    color: white;
+    width: 224px;
     height: 54px;
+    border-radius: 42px;
+    font-weight: 600;
+    font-size: 1.02rem;
+}
+
+.exercises {
+    max-width: 671px;
+    margin: 0 auto;
+}
+
+.calculator {
+    max-width: 595px;
+    margin: 0 auto;
+}
+
+.tbl-head {
+    color: white
+}
+
+.trainer-container {
+    max-width: ;
+}
+
+
+.img-shape {
+    width: 199px;
+    height: 272px;
 }
