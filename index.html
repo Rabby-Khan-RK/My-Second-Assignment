@@ -11,7 +11,9 @@
 <body class="inter-fitness-font">
     <header class="bg-light">
         <nav class="navbar display-flex">
+
             <h3 class="brand">Fitness</h3>
+
             <ul class="nav-links display-flex">
                 <li class="nav-item"><a href="" class="nav-link point-one-color home orange-color">Home</a></li>
                 <li class="nav-item"><a href="" class="nav-link point-one-color">Service</a></li>
@@ -32,14 +34,30 @@
                     healthy
                     if we do so.
                 </p>
-                <button class="button-primary">Join Club Now!</button>
-                <button class="button-app">Download App</button>
+                <div class="btn-join-app">
+                    <button class="button-primary">Join Club Now!</button>
+                    <button class="button-app">Download App</button>
+                </div>
             </div>
-            <div>
+            <div class="img-icon">
                 <img class="first-image" src="images/Images 2.png" alt="">
 
+                <button id="work-videos">
+                    <span id="numbers">500+</span>
+                    <br>
+                    <span id="free-video">Free Workout Videos</span>
+                </button>
 
+                <button id="tutorial">
+                    <div class="circle"></div>
+                    <div>
+                        <span id="plus">350+</span>
+                        <br>
+                        <span id="vtorial">Video Tutorial</span>
+                    </div>
+                </button>
             </div>
+        </div>
         </div>
     </header>
 
@@ -58,34 +76,45 @@
 
         <div class="images">
 
-
             <div>
-                <img class="img-one" src="images/image 3.png" alt="">
+                <img class="img-one img-mrg-left" src="images/image 3.png" alt="">
                 <h3>Movement</h3>
                 <p>Your movement should be <br> as flexible as rubber</p>
+            </div>
 
-                <img class="img-two" src="images/image 2.png" alt="">
+            <div>
+                <img class="img-two img-mrg-left" src="images/image 2.png" alt="">
+
                 <h3>Time</h3>
                 <p>Time it has to be the most <br> memorising thing you follow </p>
-            </div>
-            <div>
-                <img class="img-three" src="images/image 4.png" alt="">
-                <h3>Practice</h3>
-                <p>Practice makes perfect everything, <br> so we should keep trying </p>
 
-                <img class="img-four" src="images/image 5.png" alt="">
-                <h3>Weight Loss</h3>
-                <p>The most important part to lossing <br> weight is diet </p>
             </div>
+
+            <div class="practice">
+                <img class="img-three img-mrg-left" src="images/image 4.png" alt="">
+                <div class="time-correction">
+                    <h3>Practice</h3>
+                    <p>Practice makes perfect <br> everything, </p>
+                </div>
+            </div>
+
+            <div class="loss">
+                <img class="img-four img-mrg-left" src="images/image 5.png" alt="">
+                <h3 class="w-loss">Weight Loss</h3>
+                <p class="w-diwt">The most important part to lossing <br> weight is diet </p>
+            </div>
+
+
+
         </div>
 
         <div class="third-container">
             <div class="run-description">
                 <h1>Run an Extra <br> Mile Easily </h1>
-                <p>We believe fitness should <br> be accessible to everyone, <br> everywhere, regardless of income <br>
+                <p>We believe fitness should be accessible to everyone, everywhere, <br> regardless of income
                     or
                     access
-                    to a gym. With hundreds of <br> professional workouts.</p>
+                    to a gym. With hundreds <br> of professional workouts.</p>
                 <button class="join-btn">Join Now</button>
             </div>
 
@@ -95,46 +124,144 @@
 
         </div>
 
-        <div class="exercises">
-            <h1>Trainings and Exercises</h1>
-            <p>Train like a beast be the man hit the bullz eye and get a athelatic shape</p>
-        </div>
-        <div>
-
-        </div>
 
         <div class="calculator">
             <h1> BMI Calculator
             </h1>
-            <p>Don't know much about what BMI Calculator is.</p>
-            <table>
-                <tr class="tbl-head">
-                    <th>BMI
-
-                    </th>
-                    <th>Weight Status</th>
-                </tr>
-            </table>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+            </p>
         </div>
 
-        <div class="trainer-container">
+        <div class="table-and-form">
+            <div class="table-form">
+                <h3>BMI Calculator Chart</h3>
+                <table class="tbl-head">
+                    <tr class="">
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+
+                    <tr>
+                        <td>18.5-24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+
+                    <tr>
+                        <td>25.0-29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+
+                    <tr>
+                        <td>30.0-and Above</td>
+                        <td>Obese</td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div class="input-form">
+                <h3 class="calc-BMI">Calculate your BMI</h3>
+                <p>Here are some form below which you <br> have to fillup.</p>
+                <form>
+                    <input class="form-shap" placeholder="Height/cm" type="Height/cm">
+
+                    <input class="form-shap gap-right" placeholder="Weight/kg" type="weight/kg">
+
+                    <br>
+
+                    <input class="form-shap gap" placeholder="Age" type="age">
+
+                    <input class="form-shap gap gap-right" placeholder="Sex" type="sex">
+
+                    <br>
+
+                    <input class="form-shap full" placeholder="Select an activity factor" type="factor">
+                    <br>
+
+
+                    <button class="calcu-btn">Calculate</button>
+
+
+
+
+                </form>
+            </div>
+        </div>
+
+
+        <div class="main-img-container">
             <div class="training-head">
                 <h1>Meet Our Team</h1>
-                <p>I have our six experienced trainer at our gym. <br> thay can lead you to be fit</p>
+                <p>I have our six experienced trainer at our gym. thay can lead you to be fit, as we can see our
+                    trainer's are very well known and well behaviour </p>
             </div>
+            <div class="all-img">
+                <div class="trainer-img img-on">
+                    <h3 id="train">Jerome Bell</h3>
+                    <h4>trainer</h4>
+                </div>
+                <div class="trainer-img img-tw">
+                    <h3 id="train">Gameron Williamson</h3>
+                    <h4>Trainer</h4>
+                </div>
+                <div class="trainer-img img-thre">
+                    <h3 id="train">Darrell Sreward</h3>
+                    <h4>Trainer</h4>
+                </div>
+                <div class="trainer-img img-for">
+                    <h3 id="train">Dianne Russell</h3>
+                    <h4>Trainer</h4>
+                </div>
+                <div class="trainer-img img-fiv">
+                    <h3 id="train">Cody Fisher</h3>
+                    <h4>Trainer</h4>
+                </div>
+                <div class="trainer-img img-sixx">
+                    <h3 id="train">Theresa Webb</h3>
+                    <h4>Trainer</h4>
+                </div>
 
-            <div class="trainer-img">
-                <img class="tr-img-one img-shape" src="images/trainer1.png" alt="">
-                <img class="tr-img-two img-shape" src="images/trainer2.png" alt="">
-                <img class="tr-img-three img-shape" src="images/trainer3.png" alt="">
             </div>
-            <img class="tr-img-four img-shape" src="images/trainer4.png" alt="">
-            <img class="tr-img-five img-shape" src="images/trainer5.png" alt="">
-            <img class="tr-img-six img-shape" src="images/trainer6.png" alt="">
-            <div>
-
-            </div>
+        </div>
     </main>
+
+
+    <footer class="footer-container">
+        <div class="ftr">
+            <div class="footer-description">
+                <h3>Fitness</h3>
+                <p>We ara always here to assist our member trough Trainer's <br> or else. The moto is to provied survice
+                    <br> best way possible
+                </p>
+            </div>
+            <div class="ftr-des-second">
+                <h3>Get Started</h3>
+                <p>Service</p>
+                <p>Contact Us</p>
+                <p>Affiliate Program</p>
+                <p>About Us</p>
+            </div>
+            <div class="ftr-des-trird">
+                <h3>Get Started</h3>
+                <p>Fitness</p>
+                <p>Platform</p>
+                <p>Workout Libar</p>
+                <p>App Design</p>
+            </div>
+        </div>
+        <div class="the-line">
+
+        </div>
+
+        <div class="conclution">
+            <p>All right reseved @ Fitness 2024</p>
+        </div>
+    </footer>
 </body>
 
 </html>
